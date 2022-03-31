@@ -1,3 +1,9 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
 :root{
     --background-dark: #2d3548;
     --text-light: rgba(255,255,255,0.6);
@@ -39,7 +45,7 @@
     max-width: var(--width-container);
     width: 100%;
     margin-top: 50%;
-    margin-left: 18%;
+    margin-left: 14%;
   }
   
   @media(min-width: 540px){
