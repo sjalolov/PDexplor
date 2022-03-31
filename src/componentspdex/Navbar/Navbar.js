@@ -25,14 +25,14 @@ export default function Navbar() {
     <div>
       <nav className="navbar">
         {(toggleMenu || screenWidth > 500) && (
-          <ul className="list">
+          <ul className="list" behavior  = "smooth" >
             <li className="items">Home</li>
             <li className="items">Services</li>
             <li className="items">Contact</li>
           </ul>
         )}
 
-        <h1 onClick={toggleNav} className="btn">
+        <h1 onClick={toggleNav} className="btn-pdex" behavior  = "smooth">
           PDexplore
         </h1>
       </nav>
