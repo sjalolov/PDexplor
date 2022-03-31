@@ -25,7 +25,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar">
         {(toggleMenu || screenWidth > 500) && (
-          <ul className="list" behavior  = "smooth" >
+          <ul className="list">
             <li className="items">Home</li>
             <li className="items">Services</li>
             <li className="items">Contact</li>

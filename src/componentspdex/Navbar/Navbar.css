@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Montserrat;
-  background-color: #282c34;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -27,6 +26,7 @@ nav {
   height: 50px;
   background: linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255));
   border-radius: 5px;
+  z-index: 1;
 }
 
 .list {
@@ -40,6 +40,8 @@ nav {
   border-radius: 5px;
 }
 .items {
+  position: relative;
+  left: 20px;
   margin-right: 20px;
   font-size: 20px;
   text-transform: uppercase;
@@ -49,7 +51,10 @@ nav {
 }
 
 .items:hover {
-  color: #939393;
+  position: relative;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  transition: all 0.2s;
 }
 
 .btn-pdex {

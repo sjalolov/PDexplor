@@ -3,11 +3,13 @@ import "./App.css";
 import Navbar from "./componentspdex/Navbar/Navbar.js";
 import Scroll from "./componentspdex/ScrollUp/ScrollUp.js";
 import Footer from "./componentspdex/Footer/Footer.js";
+import Food from "./componentspdex/Food/Food.js";
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <Food/>
       <Footer/>
       <Scroll/>
     </div>
