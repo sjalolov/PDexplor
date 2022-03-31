@@ -33,7 +33,7 @@ export default function Navbar() {
         )}
 
         <h1 onClick={toggleNav} className="btn">
-          PDexplor
+          PDexplore
         </h1>
       </nav>
     </div>
