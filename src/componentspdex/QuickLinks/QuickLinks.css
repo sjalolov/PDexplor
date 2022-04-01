@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.grid {
+  position: relative;
+  margin-top: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10px 10px 10px;
+  gap: 1px;
+}
+
+.item1 {
+  position: relative;
+  background-color: #282c34;
+  color: #fff;
+  text-align: center;
+  width: 20vh;
+  height: 7.5vh;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.item2 {
+    position: relative;
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    width: 20vh;
+    height: 7.5vh;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.item3 {
+    position: relative;
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    width: 20vh;
+    height: 7.5vh;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.item4 {
+    position: relative;
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    width: 20vh;
+    height: 7.5vh;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.item5 {
+    position: relative;
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    width: 20vh;
+    height: 7.5vh;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.item6 {
+    position: relative;
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    width: 20vh;
+    height: 7.5vh;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+.item1:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #282c34;
+    transition: all .2s,color .2s;
+}
+
+.item2:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #282c34;
+    transition: all .2s,color .2s;
+}
+.item3:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #282c34;
+    transition: all .2s,color .2s;
+}
+.item4:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #282c34;
+    transition: all .2s,color .2s;
+}
+.item5:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #282c34;
+    transition: all .2s,color .2s;
+}
+.item6:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #282c34;
+    transition: all .2s,color .2s;
+}
+
+/**Link Text */
+
+.item1 .link_text {
+    position: absolute;
+    left: 7px;
+    top: 19px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif !important;
+    font-family: var(--ta-sans-serif);
+    font-weight: var(--trip-sans-medium);
+    font-size: 16px;
+}
+
+.item2 .link_text {
+    position: absolute;
+    left: 7px;
+    top: 19px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif !important;
+    font-family: var(--ta-sans-serif);
+    font-weight: var(--trip-sans-medium);
+    font-size: 16px;
+}
+
+.item3 .link_text {
+    position: absolute;
+    left: 7px;
+    top: 19px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif !important;
+    font-family: var(--ta-sans-serif);
+    font-weight: var(--trip-sans-medium);
+    font-size: 16px;
+}
+
+.item4 .link_text {
+    position: absolute;
+    left: 7px;
+    top: 19px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif !important;
+    font-family: var(--ta-sans-serif);
+    font-weight: var(--trip-sans-medium);
+    font-size: 16px;
+}
+
+.item5 .link_text {
+    position: absolute;
+    left: 7px;
+    top: 19px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif !important;
+    font-family: var(--ta-sans-serif);
+    font-weight: var(--trip-sans-medium);
+    font-size: 16px;
+}
+
+.item6 .link_text {
+    position: absolute;
+    left: 7px;
+    top: 19px;
+    font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif !important;
+    font-family: var(--ta-sans-serif);
+    font-weight: var(--trip-sans-medium);
+    font-size: 16px;
+}
+
+.search input{
+    position: relative;
+    padding: 6px;
+    border: none;
+    margin-top: 30%;
+    margin-left: 25%;
+    margin-bottom: 30%;
+    font-size: 17px;
+    border-radius: 100px;
+    width: 90vh;
+    height: 50px;
+  }
+
+@media(min-width: 540px){
+    .grid {
+        position: absolute;
+        left: 15%;
+        right: auto;
+        gap: 10px;
+    }
+  }
+  
+  @media(min-width: 960px){
+     .grid {
+
+    }
+  }
+
+  
