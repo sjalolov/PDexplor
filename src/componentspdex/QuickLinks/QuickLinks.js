@@ -17,16 +17,21 @@ const logoStyles = {
   marginTop: "18px",
 };
 
+
+
 export default function QuickLinks() {
   return (
     <body>
       <div className="grid">
-        <div className="item1">
-          <ul className="link_text" href= "https://www.tripadvisor.com/Hotels-g293963-Tajikistan-Hotels.html">Hotels</ul>
+        <a
+          className="item1"
+          href="https://www.tripadvisor.com/Hotels-g293963-Tajikistan-Hotels.html"
+        >
+          <span className="link_text"> Hotels</span>
           <FaHotel style={logoStyles} />
-        </div>
+        </a>
         <div className="item2">
-          <ul className="link_text">Things to do</ul>
+          <span className="link_text">Things to do</span>
           <FaServer style={logoStyles} />
         </div>
         <div className="item3">
@@ -46,9 +51,47 @@ export default function QuickLinks() {
           <FaSafari style={logoStyles} />
         </div>
       </div>
-      <div className="search">
-        <input type="text" placeholder="Search.." />
-      </div>
+
+        <div className="search">
+          <input type="text" placeholder="Search.." />
+        </div>
+      <ul class="wrapper">
+        <li class="icon facebook">
+          <span class="tooltip">Facebook</span>
+          <FaHotel style={logoStyles} />
+          <span>
+            <i class="fab fa-facebook-f"></i>
+            <FaHotel style={logoStyles} />
+          </span>
+        </li>
+        <li class="icon twitter">
+          <span class="tooltip">Twitter</span>
+          <span>
+            <i
+              class="fab fa-twitter"
+              href="https://www.tripadvisor.com/Hotels-g293963-Tajikistan-Hotels.html"
+            ></i>
+          </span>
+        </li>
+        <li class="icon instagram">
+          <span class="tooltip">Instagram</span>
+          <span>
+            <i class="fab fa-instagram"></i>
+          </span>
+        </li>
+        <li class="icon github">
+          <span class="tooltip">Github</span>
+          <span>
+            <i class="fab fa-github"></i>
+          </span>
+        </li>
+        <li class="icon youtube">
+          <span class="tooltip">Youtube</span>
+          <span>
+            <i class="fab fa-youtube"></i>
+          </span>
+        </li>
+      </ul>
     </body>
   );
 }
