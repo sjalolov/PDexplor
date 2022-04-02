@@ -58,10 +58,8 @@ export default function QuickLinks() {
       <ul class="wrapper">
         <li class="icon facebook">
           <span class="tooltip">Facebook</span>
-          <FaHotel style={logoStyles} />
           <span>
             <i class="fab fa-facebook-f"></i>
-            <FaHotel style={logoStyles} />
           </span>
         </li>
         <li class="icon twitter">
