@@ -188,13 +188,23 @@
     position: relative;
     padding: 6px;
     border: none;
-    margin-top: 30%;
+    margin-top: 15%;
     margin-left: 25%;
     margin-bottom: 10%;
     font-size: 17px;
     border-radius: 100px;
     width: 90vh;
     height: 50px;
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5)
+  }
+
+
+  .search_bg{
+    position: relative;
+    top: 360px;
+    left: 15.2%;
+    border-radius: 10px;
   }
 
 @media(min-width: 540px){

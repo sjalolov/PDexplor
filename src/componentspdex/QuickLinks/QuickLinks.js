@@ -17,8 +17,6 @@ const logoStyles = {
   marginTop: "18px",
 };
 
-
-
 export default function QuickLinks() {
   return (
     <body>
@@ -51,10 +49,20 @@ export default function QuickLinks() {
           <FaSafari style={logoStyles} />
         </div>
       </div>
-
-        <div className="search">
-          <input type="text" placeholder="Search.." />
+      <div class="wrapper_img">
+        <div>
+          <img
+            className="search_bg"
+            alt="blue"
+            src="https://i.postimg.cc/289qsCzd/bgimage.png"
+            width="980px"
+            height="250px"
+          ></img>
+          <div className="search">
+            <input type="text" placeholder="Search.." />
+          </div>
         </div>
+      </div>
       <ul class="wrapper">
         <li class="icon facebook">
           <span class="tooltip">Facebook</span>
