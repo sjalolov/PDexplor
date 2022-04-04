@@ -55,7 +55,7 @@ export default function QuickLinks() {
             className="search_bg"
             alt="blue"
             src="https://i.postimg.cc/289qsCzd/bgimage.png"
-            width="1100px"
+            width="1070px"
             height="250px"
           ></img>
           <div className="search">
