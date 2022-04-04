@@ -9,12 +9,27 @@ import {
   FaHiking,
 } from "react-icons/fa";
 
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
+
 const logoStyles = {
   color: "rgba(135, 254, 255,)",
   fontSize: "20px",
   marginLeft: "100px",
   position: "30px",
   marginTop: "18px",
+};
+
+const fontStyles = {
+  color: "black",
+  fontSize: "35px",
+  position: "20px",
+  marginTop: "5px",
 };
 
 export default function QuickLinks() {
@@ -67,34 +82,31 @@ export default function QuickLinks() {
         <li class="icon facebook">
           <span class="tooltip">Facebook</span>
           <span>
-            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-facebook-f"><FaFacebook style={fontStyles} /></i>
           </span>
         </li>
         <li class="icon twitter">
-          <span class="tooltip">Twitter</span>
+          <span class="tooltip">Linkedin</span>
           <span>
-            <i
-              class="fab fa-twitter"
-              href="https://www.tripadvisor.com/Hotels-g293963-Tajikistan-Hotels.html"
-            ></i>
+            <i><FaLinkedin style={fontStyles} /></i>
           </span>
         </li>
         <li class="icon instagram">
           <span class="tooltip">Instagram</span>
           <span>
-            <i class="fab fa-instagram"></i>
+            <i class="fab fa-instagram"><FaInstagram style={fontStyles} /></i>
           </span>
         </li>
         <li class="icon github">
           <span class="tooltip">Github</span>
           <span>
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github"><FaGithub style={fontStyles} /></i>
           </span>
         </li>
         <li class="icon youtube">
           <span class="tooltip">Youtube</span>
           <span>
-            <i class="fab fa-youtube"></i>
+            <i class="fab fa-youtube"><FaYoutube style={fontStyles} /></i>
           </span>
         </li>
       </ul>
