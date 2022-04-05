@@ -16,7 +16,6 @@
 }
 
 .item1 {
-  text-decoration: none;
   position: relative;
   background-color: #282c34;
   color: #fff;
@@ -82,10 +81,10 @@
 
 
 .item1:hover{
-    cursor: pointer;
-    background-color: #fff;
-    color: #282c34;
-    transition: all .2s,color .2s;
+  cursor: pointer;
+  background-color: #fff;
+  color: #282c34;
+  transition: all .2s,color .2s;
     
 }
 
@@ -124,8 +123,7 @@
 
 .item1 .link_text {
     position: absolute;
-    text-decoration: none;
-    color: white;
+    position: absolute;
     left: 7px;
     top: 19px;
     font-family: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif !important;
