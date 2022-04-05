@@ -186,7 +186,7 @@
     position: relative;
     padding: 6px;
     border: none;
-    margin-top: 15%;
+    margin-top: 12.5%;
     margin-left: 25%;
     margin-bottom: 10%;
     font-size: 17px;
@@ -200,7 +200,9 @@
 
   .search_bg{
     position: relative;
-    top: 390px;
+    width: 985px;
+    height:300px;
+    top: 355px;
     left: 15.2%;
     border-radius: 10px;
   }

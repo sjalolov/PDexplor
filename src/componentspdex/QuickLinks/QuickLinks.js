@@ -57,15 +57,24 @@ export default function QuickLinks() {
           <ul className="link_text">Restaurants</ul>
           <FaYelp style={logoStyles} />
         </a>
-        <a className="item4" href="https://consular.tj/travel-documents-republic-tajikistan.aspx">
+        <a
+          className="item4"
+          href="https://consular.tj/travel-documents-republic-tajikistan.aspx"
+        >
           <ul className="link_text">Documents</ul>
           <FaStackOverflow style={logoStyles} />
         </a>
-        <a className="item5" href="https://www.tripadvisor.com/Attraction_Products-g293963-t11902-zfg12022-Tajikistan.html">
+        <a
+          className="item5"
+          href="https://www.tripadvisor.com/Attraction_Products-g293963-t11902-zfg12022-Tajikistan.html"
+        >
           <ul className="link_text">Hiking</ul>
           <FaHiking style={logoStyles} />
         </a>
-        <a className="item6" href="https://www.tripadvisor.com/Attractions-g293963-Activities-Tajikistan.html">
+        <a
+          className="item6"
+          href="https://www.tripadvisor.com/Attractions-g293963-Activities-Tajikistan.html"
+        >
           <ul className="link_text">Places</ul>
           <FaSafari style={logoStyles} />
         </a>
@@ -76,8 +85,6 @@ export default function QuickLinks() {
             className="search_bg"
             alt="blue"
             src="https://i.postimg.cc/289qsCzd/bgimage.png"
-            width="1075px"
-            height="250px"
           ></img>
           <div className="search">
             <input type="text" placeholder="Search.." />
@@ -86,7 +93,7 @@ export default function QuickLinks() {
       </div>
       <ul class="wrapper">
         <li class="icon facebook">
-          <span class="tooltip" >Facebook</span>
+          <span class="tooltip">Facebook</span>
           <span>
             <a class="fab fa-facebook-f" href="https://www.facebook.com">
               <FaFacebook style={fontStyles} />
@@ -120,7 +127,10 @@ export default function QuickLinks() {
         <li class="icon youtube">
           <span class="tooltip">Youtube</span>
           <span>
-            <a class="fab fa-youtube" href="https://www.youtube.com/watch?v=sFM5wQfQ_SU">
+            <a
+              class="fab fa-youtube"
+              href="https://www.youtube.com/watch?v=sFM5wQfQ_SU"
+            >
               <FaYoutube style={fontStyles} />
             </a>
           </span>
